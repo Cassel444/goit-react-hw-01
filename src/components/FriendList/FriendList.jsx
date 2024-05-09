@@ -6,7 +6,7 @@ function FriendList({ friends }) {
     <ul>
       {friends.map((friend) => (
         <li key={friend.id}>
-          <FriendListItem data={friend} />
+          <FriendListItem item={friend} />
         </li>
       ))}
     </ul>

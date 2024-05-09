@@ -1,4 +1,5 @@
-function FriendListItem({ avatar, name, isOnline }) {
+function FriendListItem({ item }) {
+  const { avatar, name, isOnline } = item;
   return (
     <div>
       <img src={avatar} alt="Avatar" width="48" />
