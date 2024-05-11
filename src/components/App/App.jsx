@@ -1,5 +1,4 @@
 import "./App.css";
-import clsx from "clsx";
 
 import Profile from "../Profile/Profile";
 import FriendList from "../FriendList/FriendList";
